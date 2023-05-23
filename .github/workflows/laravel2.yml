@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install Dependencies
-      run: composer update
     - name: Generate key
       run: php artisan key:generate
     
